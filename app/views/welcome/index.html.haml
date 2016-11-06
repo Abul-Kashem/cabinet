@@ -1,2 +1,18 @@
-%h1 Welcome#index
-%p Find me in app/views/welcome/index.html.erb
+#banner
+  .banner_content
+    %h1 File Cabinet
+    %p Your life's work. Organized, always.
+    %button= link_to "Enter", new_user_registration_path
+
+#callouts
+  .callout_inner
+    .wrapper
+      .callout
+        %h2 Organize
+        %p Bdjobs.com Ltd. is the first and leading career management portal in Bangladesh. The vision is to try bringing Internet technology in the mainstream business ...
+
+#bottom_cta
+  .wrapper
+    %h2 Go Ahead!
+    %br
+    %button= link_to "Join Now", new_user_registration_path
